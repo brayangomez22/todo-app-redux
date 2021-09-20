@@ -3,6 +3,8 @@
   <input
     class="new-todo"
     placeholder="What do you want to do today ?"
+    [formControl]="txtInput"
+    (keyup.enter)="addTodo()"
     autofocus
   />
 </header>
