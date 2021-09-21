@@ -10,10 +10,9 @@ import {
 import { Todo } from './models/todo.model';
 
 export const initialState: Todo[] = [
-  new Todo('Save the world from villains 1'),
-  new Todo('Save the world from villains 2'),
-  new Todo('Save the world from villains 3'),
-  new Todo('Save the world from villains 4'),
+  new Todo('First task'),
+  new Todo('Second task'),
+  new Todo('Third task'),
 ];
 
 const _todoReducer = createReducer(
